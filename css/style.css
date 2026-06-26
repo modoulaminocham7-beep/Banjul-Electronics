@@ -39,7 +39,7 @@ section h2 {
 /* Home page styles */
 
 .home-header {
-    background-image: url("/images/sony.jpg");
+    background-image: url("./images/sony.jpg");
     background-size: cover;
     background-position: center;
     height: 70vh;
