@@ -126,6 +126,9 @@ h2 {
 .image1 {
     height: 300px;
     width: 400px;
+
+
+    /* border-radius: 100%; */
 }
 
 .image2 {
@@ -235,4 +238,21 @@ textarea {
     padding: 20px 10px;
 
     width: 100%;
+}
+
+@media (max-width: 740px) {
+
+    .image1 {
+        /* height: 300px; */
+        width: 100%;
+    }
+
+    .image2 {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .list-items {
+        flex-wrap: wrap;
+    }
 }
